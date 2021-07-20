@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1
+      data-testid="counter"
+    >
+      0
+    </h1>
+    <button
+      data-testid="button-up"
+      id="button-up"
+    >
+       Up
+    </button>
+    <button
+      data-testid="button-down"
+      id="button-down"
+    >
+      Down
+    </button>
+    <div>
+      <h2>
+        Country Container
+      </h2>
+      <select
+        data-testid="country-selector"
+        id="country-selector"
+      >
+        <option
+          disabled=""
+          selected=""
+          value="default"
+        >
+          Choose a country...
+        </option>
+      </select>
+      <button
+        data-testid="favourite-button"
+        id="favourite-button"
+      >
+        Add to Favourites
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
